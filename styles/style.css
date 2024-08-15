@@ -4,6 +4,15 @@
     font-style: normal;
   }
   
+
+
+  body {  /* or any parent wrapper */
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+  }
+  
+
 *{
     margin: 0;
     padding: 0;
@@ -24,8 +33,6 @@ nav{
 }
 
 
-
-
 .logo a{
     font-size: 30px;
     text-decoration: none;
@@ -44,10 +51,10 @@ main{
     background-color: #C585B3;
     display: flex;
     justify-content: space-around;
+    flex: 1;
 }
 
 .main-box{
-    height: 90vh;
     display: flex;
     width: 700px;
     align-items: center;
@@ -77,6 +84,11 @@ footer{
     bottom: 0;
     width: 100%;
     position: fixed;
+    justify-content: end;
+    
+}
+footer p{
+ 
 }
 
 @media (max-width: 480px) {
