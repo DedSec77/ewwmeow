@@ -47,7 +47,7 @@ main{
 }
 
 .main-box{
-    height: 88vh;
+    height: 90vh;
     display: flex;
     width: 700px;
     align-items: center;
@@ -73,7 +73,8 @@ img{
 footer{
     background-color: #BC69AA;
     display: flex;
-    justify-content: end;
+    left: 0;
+    bottom: 0;
     width: 100%;
     position: fixed;
 }
